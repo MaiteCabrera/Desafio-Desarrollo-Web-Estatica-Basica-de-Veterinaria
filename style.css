@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    font-family: bold; 
+    font-size: 150%;
+    margin-left: 40px;
+}
+header {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+body {
+    position: absolute;
+    width: 1950px;
+    height: 200px;
+    background: rgb(255, 255, 255); ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 8px;
+}
+.menu {
+    width: 200px;
+    margin-left: 65%;
+    font-size: 90px;
+  
+}
+/* Esto me dice que ponga el menú a la derecha */
+nav {
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 30px 50px;
+    float: left;
+    display: inline;
+   
+    
+
+}
+nav ul li a {
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+   
+}
+
+
+/* Acá creo que lo podria haber puesto todo junto y con menos cositas pero no se separarlos */
+/*Atención las 24 hs los 365 días del año*/
+
+.importante {
+    font-size: 180%;
+    background-color: #ffffff;
+    color: red;
+    float: center;
+    font-weight: bolder;
+}
+
+.NOSOTROS {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    text-align: center;
+   
+}
+
+.servicios{
+    width: 75%;
+    margin-top: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.servicios h1 {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    text-align: center;
+}
+.servicio1{
+    width: 25%;
+    float: left;
+    font-size: 90%;
+}
+.servicio2{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+}
+.servicio3{
+    width: 25%;
+    float: right;
+    font-size: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.foto1{
+    margin: auto;
+    height: auto;
+    padding: 6px;
+    width: 200px; 
+}
+
+.foto2 {
+    margin: auto;
+    height: auto;
+    padding: 6px;
+    width: 200px; 
+}
+.foto3 {
+    margin: auto;
+    height: auto;
+    width: 200px;
+ }
+
+.contacto {
+    text-align: center;
+    padding: 0%;
+    border: 1px solid floralwhite;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.contactos {
+    float: left; 
+    border: 1px solid #fff;
+    width:30%; 
+    text-align:right;
+}
+.contactot {
+    float: right; 
+    border: 1px solid #fff;
+    width:69%; 
+    text-align:left;
+
+  
+}
+.ICONO {
+    height: 15%;
+    border-radius: 10%;
+    padding: 0%;
+    width: 15%;
+    float: center;
+ 
+}
